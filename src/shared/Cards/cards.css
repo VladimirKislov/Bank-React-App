@@ -1,0 +1,117 @@
+.container {
+    padding: 44px 50px;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sortTitle {
+    margin-right: 25px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: var(--black);
+}
+
+.containerHeaderBtn {
+    padding: 16px 24px;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 156px;
+    padding: 22px;
+    background: var(--white);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.wrapperCount,
+.wrapperInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardNumber {
+    margin-bottom: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--grey18);
+}
+
+.cardMoney {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--grey18);
+}
+
+.cardText {
+    font-family: 'Work Sans';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    color: var(--grey18);
+}
+
+.cardDate {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--grey18);
+}
+
+.cardOpen {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 16px 22px;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    gap: 50px;
+}
+
+.sort {
+    display: flex;
+}
+
+.sortBtn {
+    width: 350px;
+}

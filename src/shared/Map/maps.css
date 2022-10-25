@@ -1,0 +1,23 @@
+.container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 56px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: var(--black);
+}
+
+.containerMaps {
+    margin: 0 auto;
+}
+
+/* .yMaps {
+    width: ;
+    height: ;
+} */

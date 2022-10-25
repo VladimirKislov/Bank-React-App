@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+  --black:  #000000;
+  --red:    #EB5757;
+  --green:  #27AE60;
+  --blue:   #116ACC;
+  --white:  #FFFFFF;
+  --grayE5: #E5E5E5;
+  --greyF3: #F3F4F6;
+  --grey18: #182233;
+  --grey9C: #9CA3AF;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Work Sans', 'Roboto', 'Ubuntu', serif;
+}
+
+* {
+  color: var(--white);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.selector {
+  width: 300px !important;
+}
+
+.selectTo .optionContainer,
+.selectFrom .optionContainer,
+.selector .optionContainer {
+  width: 300px;
+  border-radius: 7px;
+}
+
+.selectTo .option,
+.selectFrom .option,
+.selector .option {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+}
+
+.selectTo .option:hover,
+.selectFrom .option:hover,
+.selector .option:hover {
+  background-color: var(--blue);
+}
+
+.selector .chip {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.selectTo .singleSelect,
+.selectFrom .singleSelect,
+.selector .singleSelect {
+  width: 100%;
+  max-width: 300px;
+  height: 46px;
+  padding: 10px 50px 10px 16px;
+  border: 1px solid var(--grey9C);
+  border-radius: 7px;
+  background-color: var(--white);
+}
+
+.selectTo .highlightOption,
+.selectFrom .highlightOption,
+.selector .highlightOption {
+  background-color: var(--white);
+}
+
+
+.selectTo .singleChip,
+.selectFrom .singleChip {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--white);
+  color: var(--black);
+}

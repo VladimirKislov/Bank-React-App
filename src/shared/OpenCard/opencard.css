@@ -1,0 +1,291 @@
+.container {
+    padding: 40px 50px 30px 50px;
+}
+
+.descAcc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.descAccTitle {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: var(--black);
+}
+
+.descAccBtn {
+    padding: 16px 24px;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.descInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.descInfoTitle {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    color: var(--black);
+}
+
+.descInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 239px;
+}
+
+.descInfoBlc {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.descInfoPrice {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.detailInfo {
+    display: grid;
+    grid-template-columns: minmax(606px, 1fr) minmax(684px, 1fr);
+    grid-template-rows: 288px minmax(345px, 1fr);
+    gap: 50px;
+}
+
+.detailInfoTransfer {
+    padding: 25px 50px;
+    background: var(--greyF3);
+    border-radius: 50px;
+}
+
+.detailInfoTransferTitle {
+    margin-bottom: 25px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.detailInfoTransferWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailInfoTransferWrapperInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.detailInfoTransferText {
+    margin-right: 18px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--black);
+}
+
+.detailInfoTransferInput {
+    width: 300px;
+    height: 44px;
+    padding: 8px 16px;
+    background: var(--white);
+    border: 1px solid var(--grey9C);
+    border-radius: 7px;
+    color: var(--black);
+}
+
+.detailInfoTransferBtn {
+    margin: 0 auto;
+    padding: 16px 24px;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.detailInfoBalance {
+    position: relative;
+    padding: 25px 50px 20px 50px;
+    background: var(--white);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.detailInfoBalanceTitle {
+    margin-bottom: 25px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.detailInfoBalanceTitle:hover {
+    color: var(--blue);
+}
+
+.detailInfoBalanceChart {
+    width: 510px;
+    height: 165px;
+    margin-bottom: 8px;
+    background: var(--white);
+    border: 1px solid var(--black);
+}
+
+.detailInfoBalanceChartMaxValue {
+    position: absolute;
+    top: 70px;
+    left: 580px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.detailInfoBalanceChartMinValue {
+    position: absolute;
+    bottom: 50px;
+    left: 580px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.detailInfoHistory {
+    grid-column: 1 / 3;
+    padding: 25px 50px;
+    background: var(--greyF3);
+    border-radius: 56px;
+}
+
+.detailInfoHistoryTitle {
+    margin-bottom: 25px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.detailInfoHistoryTitle:hover {
+    color: var(--blue);
+}
+
+.detailInfoHistoryTabHeader {
+    display: flex;
+    max-width: 100%;
+    padding: 20px 50px;
+    background: var(--blue);
+    border-radius: 15px;
+}
+
+.detailInfoHistoryTabHeaderWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 850px;
+}
+
+.detailInfoHistoryTabHeaderText {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.cardList {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid var(--black);
+}
+
+.cardItem {
+    padding: 21px 0 26px 50px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.cardItemAmountRed {
+    padding: 21px 100px 26px 80px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--red);
+}
+
+.cardItemAmountGreen {
+    padding: 21px 100px 26px 80px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--green);
+}
+
+.cardItemDate {
+    position: absolute;
+    left: 855px;
+    padding: 21px 0 26px 0;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.detailInfoBalanceMonth {
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+    padding: 0 55px;
+}
+
+.detailInfoBalanceMonthItem {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}

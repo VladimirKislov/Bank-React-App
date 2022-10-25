@@ -1,0 +1,229 @@
+.container {
+    padding: 50px;
+}
+
+.title {
+    margin-bottom: 55px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: var(--black);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(588px, 1fr) minmax(703px, 1fr);
+    grid-template-rows: 411px 273px;
+    gap: 50px;
+}
+
+.wrapperMoney {
+    padding: 50px;
+    background: var(--white);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.wrapperMoneyTitle {
+    margin-bottom: 25px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.wrapperMoneyInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperMoneyInfoContainer {
+    display: flex;
+}
+
+.wrapperMoneyInfoContainer:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.wrapperMoneyInfoContainerCoin {
+    margin-right: 10px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.wrapperMoneyInfoContainerPoint {
+    margin-right: 10px;
+    color: var(--black);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrapperMoneyInfoContainerPrice {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+    white-space: nowrap;
+}
+
+.wrapperCourse {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    padding: 50px;
+    background: #E5E5E5;
+    border-radius: 50px;
+}
+
+.wrapperCourseTitle {
+    margin-bottom: 25px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.wrapperCourseContainerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapperCourseContainerBlock:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.wrapperCourseContainerBlockCoin {
+    margin-right: 10px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.wrapperCourseContainerBlockPoint {
+    margin-right: 10px;
+    color: var(--black);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrapperCourseContainerBlockPrice {
+    margin-right: 10px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+    white-space: nowrap;
+}
+
+.wrapperExchange {
+    padding: 50px;
+    background: var(--white);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.wrapperExchangeTitle {
+    margin-bottom: 25px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formSelectContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formSelect {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.formSelectTitle {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+}
+
+.formSelectList {
+    width: 134px;
+    height: 44px;
+    padding: 8px 16px;
+    background: var(--white);
+    border: 1px solid var(--grey9C);
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.formSelectList:not(:last-child) {
+    margin-right: 20px;
+}
+
+.formInputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formInputContainerTitle {
+    margin-right: 8px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+}
+
+.formInputContainerInput {
+    padding: 8px 16px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid var(--grey9C);
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.formInputContainerBtn {
+    padding: 47px 13px;
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+}
